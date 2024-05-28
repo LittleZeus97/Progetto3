@@ -1,13 +1,16 @@
 body{
-    background-image: url(https://hips.hearstapps.com/hmg-prod/images/simon-migaj-yui5vfkhuzs-unsplash-1580476027.jpg?resize=2048:*);
-    background-repeat: no-repeat;
-    background-size: 100vw;
+    
 }
 
-.container {
+.hero {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/simon-migaj-yui5vfkhuzs-unsplash-1580476027.jpg?resize=2048:*);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65), 200%); 
+
 }
   
 
@@ -52,8 +55,8 @@ body{
     border-width: 3px;
     border-color: #343434;
     margin-top: 100px;
-    margin-left: 240px;
-    margin-right: 240px;
+    margin-left: 24vw;
+    margin-right: 24vw;
 }
   
 .paragraph{
@@ -66,8 +69,8 @@ body{
     color: #fff;
     border-bottom: 3px solid white;
     padding: 50px;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 25vw;
+    margin-right: 25vw;
 }
   
 .button {
@@ -82,8 +85,8 @@ body{
     font-size: 30px;
     margin-top: 15px;
     margin-bottom: 15px;
-    margin-left: 576px;
-    margin-right: 576px;
+    margin-left: 40vw;
+    margin-right: 40vw;
 }
   
 .accounts{
@@ -91,7 +94,7 @@ body{
     flex-direction: inline-block;
     justify-content: flex-end;
     align-items: flex-end;
-    margin-top:28px;
+    margin-top:6vw;
 }
   
 .instagram{
